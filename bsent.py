@@ -316,10 +316,10 @@ vocab_sources = {'train-neg.txt':'TRAIN_NEG', 'train-pos.txt':'TRAIN_POS', 'trai
 # bow.make_dataset()
 # bow.evaluate()
 
-d2v = SentimentDoc2Vec(train_sources, test_sources, vocab_sources, 100)
-d2v.make_model('./imdb.d2v')
-d2v.make_dataset()
-d2v.evaluate()
+# d2v = SentimentDoc2Vec(train_sources, test_sources, vocab_sources, 100)
+# d2v.make_model('./imdb.d2v')
+# d2v.make_dataset()
+# d2v.evaluate()
 # d2v.evaluate_nn()
 
 
